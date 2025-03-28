@@ -54,11 +54,20 @@ CREATE TABLE veiculo (
 );
 ```
 
+Dentro da classe estacionamento adicione o usuario e senha do seu banco de dados
+```
+public class Estacionamento {
+    private static final String URL = "jdbc:oracle:thin:@oracle.fiap.com.br:1521:orcl";
+    private static final String USER = "COLOCAR USUARIO";
+    private static final String PASSWORD = "COLOCAR SENHA";
+```
+
 ## 4️⃣ Compilar e executar o projeto
 ```
 javac -d bin -sourcepath src src/br/com/restaurante/estacionamento/Main.java
 java -cp bin br.com.restaurante.estacionamento.Main
 ```
+
 
 ## 🚀 Como Usar
 1️⃣ Inicie o programa
