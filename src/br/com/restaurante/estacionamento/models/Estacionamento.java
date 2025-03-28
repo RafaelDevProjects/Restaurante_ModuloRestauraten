@@ -6,8 +6,8 @@ import java.sql.*;
 
 public class Estacionamento {
     private static final String URL = "jdbc:oracle:thin:@oracle.fiap.com.br:1521:orcl";
-    private static final String USER = "rm554019";
-    private static final String PASSWORD = "060304";
+    private static final String USER = "COLOCAR USUARIO";
+    private static final String PASSWORD = "COLOCAR SENHA";
 
     public void mostrarEstacionamento() {
         String query = "SELECT total_vagas, vagas_ocupadas, preco_por_hora FROM estacionamento WHERE id = 1";
